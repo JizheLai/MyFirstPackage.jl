@@ -3,8 +3,18 @@ uuid = "18f3cd00-52b1-4cfd-8311-c5035107d22b"
 authors = ["JizheLai"]
 version = "1.0.0-DEV"
 
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LiveServer = "16fef848-5104-11e9-1b77-fb7a48bbb589"
+
 [compat]
-julia = "1"
+CairoMakie = "0.15.6"
+Documenter = "1.14.1"
+LinearAlgebra = "1"
+LiveServer = "1.5.0"
+julia = "1.10"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
